@@ -368,18 +368,14 @@ textarea {
 }
 
 .summit-button {
-    position: absolute;
+    
     width: 200px;
     height: 50px;
-    left: 380px;
-    top: 580px;
-        
-    justify-content: center;
-    display: block;
+    margin: 6px 124px 40px 124px;
+    
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    align-items: center;
-    
+      
     letter-spacing: 0.06em;
     font-family: 'Roboto';
     font-style: normal;
