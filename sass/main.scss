@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import "./utils/variables";
+@import "./components/header";
+@import "./components/button";
+@import "./components/form";
+@import	"./components/benefist";
+@import "./components/dedication";
+@import "./components/team";
+@import "./components/portfolio";
+@import "./components/customers";
+@import "./components/footer";
+@import "./utils/mixins";
+@import "./utils/extend";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary-white-color;
+    color: $primary-text-color;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.menu {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 var(--container-padding);
+    background: $primary-white-color;
+    border-bottom: 2px solid #eee;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+header nav .nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+header nav .logo {
+    color: $color-main;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.contac-menu {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: $color-main;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-black {
+    color: $logo-black;
+}
+
+.logo-white {
+    color: $primary-white-color;
+}

@@ -1,0 +1,76 @@
+
+.footer {
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $background-black-2;
+}
+
+.footer-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer-addreess {
+    display: flex;
+    flex-direction: column;
+    margin-left: 215px;
+}
+
+.footer-logo {
+    color: $color-main;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.footer-location {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+}
+
+.footer-email,
+.footer-phone {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+}
+
+.footer-location:hover,
+.footer-email:hover,
+.footer-phone:hover {
+    color: $primary-white-color;
+}
+
+.footer1 {
+    margin-top: 62px;
+}
+
+.footer-logo1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}

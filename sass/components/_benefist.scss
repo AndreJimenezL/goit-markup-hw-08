@@ -1,0 +1,38 @@
+
+.benefits {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    display: flex;
+    }
+
+    .benefits li {
+        list-style: none;
+        width: 240px;
+    }
+
+    .benefits li .title {
+        text-transform: uppercase;
+        color: $primary-black-color;
+    }
+
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icons-detalles {
+    width: 70px;
+    height: 70px;
+}
+
+.icons-list {
+    @extend %flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 120px;
+    background-color: $button-filter;
+    width: 270px;
+}

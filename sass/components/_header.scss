@@ -1,0 +1,49 @@
+
+.contac-menu .link {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-menu .link:hover,
+.nav-menu .link.current,
+.contac-menu .link:hover {
+    color: $color-main;
+}
+
+
+.icon-email {
+    width: 16px;
+    height: 11px;
+    margin-right: 10px;
+}
+
+.icon-telefono {
+    width: 10px;
+    height: 13px;
+    margin-right: 10px;
+}
+
+header nav .nav-menu .link {
+    color: $primary-black-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+.link:hover,
+.link:hover .icon-email,
+.link:focus .icon-email .link:hover,
+.link:hover .icon-telefono,
+.link:focus .icon-telefono {
+    fill: #03a9f4;
+    color: #2196f3;
+}
