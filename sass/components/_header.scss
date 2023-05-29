@@ -10,10 +10,18 @@
 
 .nav-menu .link:hover,
 .nav-menu .link.current,
-.contac-menu .link:hover {
-    color: $color-main;
+.nav-menu .link:focus,
+.nav-menu .link:active {
+    color: $color-main-hover;
 }
 
+
+.contac-menu .link.current,
+.contac-menu .link:focus,
+.contac-menu .link:active,
+.contac-menu .link:hover {
+    color: $color-main-hover;
+}
 
 .icon-email {
     width: 16px;
@@ -39,11 +47,20 @@ header nav .nav-menu .link {
 
 
 
-.link:hover,
-.link:hover .icon-email,
-.link:focus .icon-email .link:hover,
+.icon-email .link:hover,
+.icon-email .link.current,
+.icon-email .link:focus,
+.icon-email .link:active,
+.icon-telefono .link:hover,
+.icon-telefono .link.current,
+.icon-telefono .link:focus,
+.icon-telefono .link:active,
+
+.link:hover .contac-menu .icon-email,
 .link:hover .icon-telefono,
+.link:focus .icon-email,
 .link:focus .icon-telefono {
     fill: #03a9f4;
-    color: #2196f3;
+    color: $color-main;
 }
+

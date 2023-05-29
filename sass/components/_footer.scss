@@ -74,3 +74,31 @@
     margin-left: 120px;
     margin-bottom: 10px;
 }
+
+.social-media1{
+    background-color: transparent;
+    @extend %flex;
+    border-radius: 50%;
+    align-content: space-between;
+}
+
+.icon-media1 {
+    fill: $primary-white-color;
+}
+
+.icon-social {
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.icon-social:focus .icon-media1,
+.icon-social:hover .icon-media1 {
+    fill: $primary-white-color;
+}
+
+.social-media1 .icon-social.current,
+.social-media1 .icon-social:focus,
+.social-media1 .icon-social:active,
+.social-media1 .icon-social:hover {
+    background-color: $color-main-hover;
+}
