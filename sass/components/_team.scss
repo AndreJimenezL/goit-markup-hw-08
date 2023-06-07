@@ -1,12 +1,13 @@
 
 .team {
     background-color: $background-gray;
+
 }
 
     .team h2 {
         padding: 30px 0;
-        padding-top: 94px;
         font-family: 'Roboto';
+        padding-top: 60px;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -22,22 +23,31 @@
 
 .team_cards {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    
     }
+
     .team_cards li {
         background-color: $primary-white-color;
         text-align: center;
         list-style: none;
+        justify-content: center;
+        margin-top: 30px;
+        
     }
 
     .team_cards li h3 {
         margin: 20px 0 10px 0;
     }
 
-    .team_cards li p {
-        margin-bottom: 30px;
+    .team {
+        box-shadow: 0px 2px 1px 0px #00000033;
+        
+        box-shadow: 0px 1px 1px 0px #00000024;
+        
+        box-shadow: 0px 1px 3px 0px #0000001F;
     }
 
 .icon-media {
@@ -54,13 +64,13 @@
 .social-media {
     @extend %flex;
     gap: 10px;
-    padding-bottom: 20px;
+    
 }
 
 
 .social-media1 {
     @extend %flex;
-    padding-left: 110px;
+    
 }
 
 

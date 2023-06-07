@@ -1,8 +1,8 @@
 
-.benefits {
+.benefits-list {
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
     }
 
@@ -14,13 +14,8 @@
     .benefits li .title {
         text-transform: uppercase;
         color: $primary-black-color;
+        padding-left: 10px;
     }
-
-.container {
-    padding: 0 15px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .icons-detalles {
     width: 70px;
@@ -31,8 +26,28 @@
     @extend %flex;
     align-items: center;
     margin-bottom: 30px;
+    margin-left: 15px;
     border-radius: 15px;
     height: 120px;
     background-color: $button-filter;
-    width: 270px;
+    width: 450px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.title {
+margin-left: 15px;
+margin-bottom: 10px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.description{
+margin-left: 15px;
+margin-bottom: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
 }

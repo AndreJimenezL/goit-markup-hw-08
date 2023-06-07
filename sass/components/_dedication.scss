@@ -5,7 +5,7 @@
 
 
 .dedication>h2 {
-    padding: 30px 0;
+    padding-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700px;
@@ -20,7 +20,6 @@
 .dedication .container ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -28,4 +27,10 @@
 .dedication .container ul li {
     list-style: none;
     width: 360px;
+}
+
+.images_dedication{
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
 }

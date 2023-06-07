@@ -1,21 +1,30 @@
 
 .footer {
-    display: flex;
     padding-bottom: 5px;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $background-black-2;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
+.footer1{
+    justify-content: center;
+}
 .footer-container {
     margin-top: 60px;
     margin-bottom: 60px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-addreess {
     display: flex;
     flex-direction: column;
-    margin-left: 215px;
+  align-items: center;
+
 }
 
 .footer-logo {
@@ -29,6 +38,7 @@
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 6px;
+    align-items: center;
 }
 
 .footer-location {
@@ -39,6 +49,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: $primary-white-color;
+    align-content: center;
 }
 
 .footer-email,
@@ -59,10 +70,6 @@
     color: $primary-white-color;
 }
 
-.footer1 {
-    margin-top: 62px;
-}
-
 .footer-logo1 {
     font-family: "Roboto";
     font-weight: 700;
@@ -71,15 +78,22 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $primary-white-color;
-    margin-left: 120px;
-    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+h3 .footer-logo1 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .social-media1{
     background-color: transparent;
     @extend %flex;
     border-radius: 50%;
-    align-content: space-between;
+    gap: 10px;
+    
 }
 
 .icon-media1 {
