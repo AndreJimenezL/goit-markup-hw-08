@@ -178,10 +178,7 @@ header nav .nav-menu .link {
     min-height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    min-width: 500px;
-    display: flex;
-        
+    justify-content: space-between;    
 }
 
     
@@ -198,10 +195,8 @@ header nav .nav-menu .link {
     
     .menu-toggle {
         min-height: 40px;
-        min-width: 40px;
         display: flex;
         align-items: center;
-        justify-content: center;
         margin: 0;
         padding: 0;
         background-color: transparent;
@@ -223,7 +218,9 @@ header nav .nav-menu .link {
     .container-header .link{
         display: none;
     }
-
+.menu-container{
+    display: none;
+}
    
 }
 
@@ -235,5 +232,9 @@ header nav .nav-menu .link {
 
    .menu-container {
        display: none;
+   }
+
+   .footer-addreess {
+    align-items: inherit;
    }
 }

@@ -2,16 +2,18 @@
 .benefits-list {
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
+   
     }
 
-    .benefits li {
+
+    .benefits-list li {
         list-style: none;
         width: 240px;
     }
 
-    .benefits li .title {
+    .benefits-list li .title {
         text-transform: uppercase;
         color: $primary-black-color;
         padding-left: 10px;
@@ -30,9 +32,9 @@
     border-radius: 15px;
     height: 120px;
     background-color: $button-filter;
-    width: 450px;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 270px;
+    gap: 10px;
+    
     
 }
 
@@ -41,7 +43,7 @@ margin-left: 15px;
 margin-bottom: 10px;
 align-items: center;
 justify-content: center;
-display: flex;
+
 }
 
 .description{
@@ -49,5 +51,5 @@ margin-left: 15px;
 margin-bottom: 30px;
 align-items: center;
 justify-content: center;
-display: flex;
+
 }
