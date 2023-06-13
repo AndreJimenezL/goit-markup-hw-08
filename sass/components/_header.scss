@@ -73,7 +73,7 @@ header nav .nav-menu .link {
 }
 
 .menu {
-    display: flex;
+    
     padding: 0;
     margin: 0;
     list-style: none;
@@ -213,10 +213,6 @@ header nav .nav-menu .link {
     .page-header2{
         display: none;
     }
-    .menu {
-        display: none;
-    }
-
     .container-header .link{
         display: none;
     }
@@ -226,7 +222,9 @@ header nav .nav-menu .link {
     .dedication {
         display: none;
     }
-
+    .menu-container.is-open {
+            transform: translateX(0);
+    }
 }
 
  @media screen and (min-width: 769px) {
