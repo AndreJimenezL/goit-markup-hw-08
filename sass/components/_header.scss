@@ -211,34 +211,32 @@ header nav .nav-menu .link {
 @media screen and (max-width: 768px) {
    
     .page-header2{
-        display: none;
+    display: none;
     }
     .container-header .link{
-        display: none;
+    display: none;
     }
     .menu-container{
-        display: none;
+    display: none;
     }
     .dedication {
-        display: none;
+    display: none;
     }
-    .menu-container.is-open {
-            transform: translateX(0);
-    }
+    
 }
 
  @media screen and (min-width: 769px) {
 
-  .page-header {
+    .page-header {
     display: none;
-  }
+    }
 
-   .menu-container {
+    .menu-container {
     display: none;
-   }
+    }
 
-    .footer {
-        display: flex;
+   .footer {
+    display: flex;
     }
    
 }
